@@ -1,5 +1,6 @@
 import NewTask from './NewTask.jsx';
 
+// There seems to be a bug that makes the tasks of a project carry over to all other projects. tldr; the tasks are static not dynamic amoung projects.
 export default function Tasks({ tasks, onAdd, onDelete }) {
   return (
     <section>
